@@ -23,7 +23,8 @@ with open ("email.txt", "w" ) as file1 :
         file1.write(line + "\n") # \n to write each item on a separate line
 
 
-'''
+'''.
+
 ## alternative for writing (not tested)
 new_file = open ("newfile.txt", mode = "a+", encoding = "utf-8")
 new_file.writelines(email, "\n")
